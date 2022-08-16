@@ -3,7 +3,7 @@ name: Sphinx Build
   # uses: ammaraskar/sphinx-action@8b4f60114d7fd1faeba1a712269168508d4750d2
   uses: ammaraskar/sphinx-action@0.4
   with:
-    # Thegit  folder containing your sphinx docs.
+    # The git  folder containing your sphinx docs.
     docs-folder: # default is docs/
     # The command used to build your documentation.
     build-command: # optional, default is make html
