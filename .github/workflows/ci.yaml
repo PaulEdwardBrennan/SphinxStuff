@@ -8,6 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - run: mkdir "/tmp/sphinx-log"
+    - run: pip install sphinx_rtd_theme
     - uses: ammaraskar/sphinx-action@master
       with:
         # build-command: "sphinx-build docs build"
