@@ -10,8 +10,8 @@ jobs:
       uses: actions/checkout@master
       # - run: mkdir "/tmp/sphinx-log"
     
-    - name: Install Depencencies
-      run: pip3 install sphinx_rtd_theme
+    # - name: Install Depencencies
+    #   run: pip3 install sphinx_rtd_theme
 
     - name: Sphinx Action
       uses: ammaraskar/sphinx-action@master
