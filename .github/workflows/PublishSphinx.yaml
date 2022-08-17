@@ -12,8 +12,7 @@ jobs:
     - namm: Install Depencencies
       run: pip install sphinx_rtd_theme
 
-    -name: Call Sphinx Action
-     - uses: ammaraskar/sphinx-action@master
+    - uses: ammaraskar/sphinx-action@master
         with:
         # build-command: "sphinx-build docs build"
         docs-folder: docs
