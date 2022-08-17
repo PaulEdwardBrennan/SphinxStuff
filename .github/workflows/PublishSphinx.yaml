@@ -14,11 +14,11 @@ jobs:
     #   run: pip3 install sphinx_rtd_theme
 
     - name: Sphinx Action
-      run: pip install sphinx_rtd_theme
       uses: ammaraskar/sphinx-action@master
       with:
         # build-command: "sphinx-build docs build"
         docs-folder: docs
+        pre-build-command: "pip install sphinx_rtd_theme"
     
     - name: Commit documentation changes
       run: |
