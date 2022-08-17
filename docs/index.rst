@@ -7,7 +7,7 @@ Welcome to  PB's Sphinx Test Project
 ====================================
 
 .. toctree::
-   :caption: Sphix Stuff
+   :caption: Sphinx Stuff
    :maxdepth: 2
 
    Beyond The Horizon <bthsetlist.rst>
