@@ -53,9 +53,8 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme =  'alabaster' # 'sphinx_material'
+html_theme =  'sphinx_rtd_theme' # 'alabaster'
 
-'''
 html_theme_options = {
     'analytics_id': 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard
     'analytics_anonymize_ip': False,
@@ -72,7 +71,7 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False # Set to True to stop sub-headings in the doc appearing in the nav tree.
 }
-'''
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
