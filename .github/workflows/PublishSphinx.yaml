@@ -11,7 +11,7 @@ jobs:
       # - run: mkdir "/tmp/sphinx-log"
     
     - name: Install Depencencies
-      run: pip install sphinx_rtd_theme
+      run: pipx install sphinx_rtd_theme
 
     - name: Sphinx Action
       uses: ammaraskar/sphinx-action@master
