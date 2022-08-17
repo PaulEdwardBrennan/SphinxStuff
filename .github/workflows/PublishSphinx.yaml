@@ -19,7 +19,7 @@ jobs:
         # build-command: "sphinx-build docs build"
         docs-folder: docs
         # pre-build-command: "pip install sphinx_rtd_theme"
-        pre-build-command: "./.github/scripts/do_poetry.sh"
+        pre-build-command: "./.github/scripts/do_poetryxxx.sh"
     
     - name: Commit documentation changes
       run: |
