@@ -1,3 +1,5 @@
+### These are the requirements for publishing the docs with Sphinx.
+
 sphinx_rtd_theme
 sphinx_design
 myst-nb
