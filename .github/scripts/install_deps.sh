@@ -2,5 +2,5 @@
 
 set -ex
 
-pip install poetry
+pip install myst_nb
 pip install sphinx_rtd_theme
