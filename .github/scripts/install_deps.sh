@@ -2,5 +2,5 @@
 
 set -ex
 
-pip install myst_nb
+pip install myst-nb
 pip install sphinx_rtd_theme
