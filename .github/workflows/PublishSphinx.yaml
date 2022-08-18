@@ -13,7 +13,8 @@ jobs:
       uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: docs
-        pre-build-command: "./.github/scripts/install_deps.sh"
+        # pre-build-command: "./.github/scripts/install_deps.sh"
+        pre-build-command: "git install -r requirements.txt"
     
     - name: Commit documentation changes
       run: |
