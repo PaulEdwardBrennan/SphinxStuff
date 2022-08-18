@@ -31,6 +31,7 @@ extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
+    'myst_nb'
     'sphinx.ext.githubpages']
 
 # source_suffix = ['.rst', '.md']
